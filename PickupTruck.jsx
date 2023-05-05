@@ -7,11 +7,10 @@ Source: https://sketchfab.com/3d-models/low-poly-american-pickup-truck-172f7725e
 Title: Low Poly American Pickup Truck
 */
 
-import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 // const path = '../models/low_poly_american_pickup_truck.glb'
-const path = 'public/models/low_poly_american_pickup_truck.glb'
+const path = 'models/low_poly_american_pickup_truck.glb'
 export function PickupTruck(props) {
   const { nodes, materials } = useGLTF(path)
   return (
