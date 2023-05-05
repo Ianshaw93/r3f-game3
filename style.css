@@ -1,0 +1,60 @@
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: ivory;
+    /* overscroll-behavior: contain; */
+}
+
+.interface
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; 
+    font-family: cursive;  
+}
+
+.papersLeft
+{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    /* width: 100%; */
+    color: white;
+    background: #00000033;
+    font-size: 6vh;
+    padding-bottom: 5px; 
+    text-align: center;  
+}
+
+/* crossOverlayPapersLeft */
+.crossOverlayPapersLeft
+{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    font-size: 6vh;
+    padding-bottom: 5px; 
+    text-align: center;  
+}
+/* papersDelivered */
+.papersDelivered
+{
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    /* width: 100%; */
+    color: white;
+    background: #00000033;
+    font-size: 6vh;
+    padding-bottom: 5px; 
+    text-align: center;  
+}
